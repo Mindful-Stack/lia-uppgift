@@ -6,7 +6,7 @@ Ni ska bygga en enkel CRUD-applikation där användare kan hantera lokala evenem
 - Ett backend-API i **.NET 9** med **Minimal API** och **Vertical Slice Architecture** (i Visual Studio, skapa ett .NET Core WebAPI projekt)
   => Titta gärna i "*grantigo*" repositoryt hur detta implementeras via IEndpoint interface och IEndpointRouteBuilderExtensions. (Sökväg: src/server/Grantidote.Api/Endpoints/_internal/)
 - En frontend byggd med **SvelteKit**
-- En databas i **PostgreSQL**, hanterad via **Entity Framework Core**
+- En databas i **PostgreSQL**, hanterad via **Entity Framework Core** - **[Download PostgreSQL](https://www.postgresql.org/download/)**
 - Frontend kommunicerar med backend via API-anrop
 
 Ingen autentisering behövs.
